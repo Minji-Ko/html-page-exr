@@ -32,6 +32,37 @@ html, body{
     top: 0;
     z-index: 10;
 }
+#box{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    list-style: none;
+    color: white;
+    z-index: 20; 
+    font-family: "Handon 3gyeopsal 300g";
+}
+#box li > a{
+    color: inherit;
+    font-size: 50px;  
+}
+#box li:hover > a{
+    color: azure;   
+}
+#box ul{
+    list-style: none;
+    opacity: 0;
+}
+#box ul > li{
+    margin-top: 30px;
+}
+#box ul > li > a{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#box li:hover ul{
+    opacity: 1;
+}
 .contents{
     position: absolute;
     top: 50%;
