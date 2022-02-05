@@ -32,3 +32,32 @@ html, body{
     top: 0;
     z-index: 10;
 }
+.contents{
+    position: absolute;
+    top: 0;
+    z-index: 20;
+    text-align: center;
+    font-family:  "Handon 3gyeopsal 300";
+}
+.contents__name{
+    font-size: 64px;
+    font-weight: bold;
+    color : white;
+    margin-bottom: 25px;
+}
+.contents__job{
+    font-size: 25px;
+    font-weight: bold;
+    color : white;
+    margin-bottom: 50px;
+}
+.contents__list{
+    font-size: 0px;
+}
+.contents__list > li{
+    border: 1px solid white;
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+}
