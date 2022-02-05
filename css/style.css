@@ -34,10 +34,13 @@ html, body{
 }
 .contents{
     position: absolute;
-    top: 0;
+    top: 50%;
+    left: 50%;
+    margin-left: -220px;
+    margin-top: -109px;
     z-index: 20;
     text-align: center;
-    font-family:  "Handon 3gyeopsal 300";
+    font-family: "Handon 3gyeopsal 300g";
 }
 .contents__name{
     font-size: 64px;
@@ -53,6 +56,7 @@ html, body{
 }
 .contents__list{
     font-size: 0px;
+    color: white;
 }
 .contents__list > li{
     border: 1px solid white;
@@ -60,4 +64,13 @@ html, body{
     width: 52px;
     height: 52px;
     border-radius: 50%;
+    margin-right: 20px;
+    line-height: 52px;
+    font-size: 16px;
+}
+.contents__list > li:last-child{
+    margin-right: 0;
+}
+.contents__list > li > a{
+    color: inherit;
 }
